@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By viewing diff between two versions I was able to locate where was difference between the two documents.
+It helps me locate any errors, if there are. It also helps to find what was working if something broke 
+in the next version.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in 
+the long term?
+In the long term I can look at my previous codes and could really see how have I improved over the years
+and could see my progress through the quality of my code. Also by labelling the codes properly I could
+understand what works and what doesn't.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros: The commits will be logical and it would make sense. It provides more flexibility.
+It would have lesser versions if the commits if compared to commits per hour, say.
+Cons: If the user forgets it would be too big to commit too many changes in a single 
+commit. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file separately?
+This is so because in Google Docs, each file is different a word file is not related to another word
+file or a sheet for that matter, but in case of Git, we save files which are interrealted such as 
+html, css and js.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log allows to view where did we introduce a particular change and when did we do it.
+Git diff allows to see how many lines were changed and where did the change occur in file.
+
+How might using version control make you more confident to make changes that could break something?
+Version control allows me to experiment more because I have the confidence that I could always return
+to the previously working code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+For Version Control, duhh. For working confidently with codes and not fearing about different versions.
