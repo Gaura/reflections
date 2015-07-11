@@ -10,3 +10,8 @@ Staging area is a virtual area where we can put our files before we push them to
 repo. It provides a place to put aggregate files before sending them to repo.
 Also I think, if multiple users are working on same file they can compare the
 code and select which changes to commit. It's not the same as working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add files to the staging area afte a logical change and then commit them. At any time
+the files in staging area should correspond to one logical change only and then
+committed before adding files in staging area with another logical change.
