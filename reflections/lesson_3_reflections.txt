@@ -1,1 +1,4 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+It would be helpful when we want to save a copy to cloud. It would prevent the loss 
+in case something happens to local computer. It would also be helpful in sharing the 
+code with other people
