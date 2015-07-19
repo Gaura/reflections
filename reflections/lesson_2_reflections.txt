@@ -15,3 +15,28 @@ How can you use the staging area to make sure you have one commit per logical ch
 Add files to the staging area afte a logical change and then commit them. At any time
 the files in staging area should correspond to one logical change only and then
 committed before adding files in staging area with another logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+Branches would be helpful if we are making a change which would change the external behaviour
+of the program and at the same time would like to keep the working version intact.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams provide overivew of the commits. With the help of diagram we are able to locate from
+where different branches originated. What were the previous commits. It also shows the commits
+which will not be visible simply with the log.
+
+What is the result of merging two branches together? Why do we represent it in the diagram 
+the way we do?
+The merger caused both the changes in both the branches to be combined and we would see the
+combined effect. If two different features were added in different branches we would see one
+both the features working in the merged file. The diagram helps visulizing. It helps in 
+knowing that what commits would be a part of the log. The commits from both the brances would be
+shown according to their time stamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Automatic merging saves from the possibility of having too many branches
+then loosing track of what is happening where kind of scenario. 
+Cons: When will the merge occur? How would Git know that it is a good time to merge?
+It could result in code with bugs getting merge in master branch. It could result
+in undesirable changes in the code.
