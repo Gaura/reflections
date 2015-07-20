@@ -23,4 +23,9 @@ Branches happen on a single repository. They are not a copy but an extension.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It helps keep track of the progress of code. We know how much we have diverged from the 
 remote. It would take less time to update the remote if the local is updated. It gives the
-flexibility of working oflline.
+flexibility of working ofline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Version control and collabration would be very hard without using Git or GitHub. If I would wish to
+collaborate it would be done by communication with the collaborators and file sharing but as I mentioned
+earlier, it would be harder.
